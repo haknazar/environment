@@ -1,0 +1,10 @@
+{
+    "/api": {
+        "target": "http:your-api-want-to-use-for-diffent-url",
+        "secure": false,
+        "pathRewrite": {
+            "^/api": ""
+        },
+        "changeOrigin": true
+    }
+}
